@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro de clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend class="title">
+                    <b>CADASTRO DE ALUNOS</b> 
+                    <img src="2 (1).png" alt="logo" id="logo-image">
+                </legend>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="dados-user" required>
+                    <label for="nome" class="labelInput">Nome completo</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="dados-user" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="dados-user" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password" class="dados-user" required>
+                    <label for="password" class="labelInput">Digite uma senha</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password" class="dados-user" required>
+                    <label for="password" class="labelInput">Confirme a sua senha</label>
+                </div>
+                    <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <div>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+        
+            </fieldset>
+        </form>
+        
+    </div>
+</body>
+</html>
